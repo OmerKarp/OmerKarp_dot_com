@@ -58,6 +58,48 @@ export const clientReviews = [
 
 export const myProjects = [
   {
+    title: "LUCK - A Full-Stack, Decentralized Web3 Lottery",
+    desc: "LUCK is a full-stack, decentralized web3 lottery with a twist. Using the Chainlink VRFCoordinator for randomness. (because the blockchain is deterministic)",
+    subdesc:
+      "LUCK is made out of 3 parts: The LUCK token, The LUCK Bank, And the LUCK website, for an explanation on each of them click the link.",
+    href: "https://github.com/OmerKarp/LuckToken",
+    texture: "/textures/project/project2.mp4",
+    logo: "/assets/project-logo2.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "Solidity",
+        path: "/assets/solidity_icon.svg",
+      },
+      {
+        id: 2,
+        name: "Python",
+        path: "/assets/python_logo.png",
+      },
+      {
+        id: 3,
+        name: "TypeScript",
+        path: "/assets/typescript.png",
+      },
+      {
+        id: 4,
+        name: "React.ts",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 5,
+        name: "Css",
+        path: "/assets/css_icon.png",
+      },
+    ],
+  },
+  {
     title: "Last Tank Standing - Tank Couch Game",
     desc: "Last Tank Standing is a couch tanks game where you earn money, upgrade your tank and buy different ammo types. You fight with others in well made maps, and you can create your own maps to play on with the SandBox feature! There is a leaderboard, random air-drops, and much much more! Also I added 3 music tracks, and menus for information.",
     subdesc:
@@ -80,48 +122,11 @@ export const myProjects = [
     ],
   },
   {
-    title: "LUCK - A Full-Stack, Decentralized Web3 Lottery",
-    desc: "LUCK is a full-stack, decentralized web3 lottery with a twist. Using the Chainlink VRFCoordinator for randomness. (because the blockchain is deterministic)",
+    title: "ChainPort - The Ultimate Cross-Chain Bridge",
+    desc: "ChainPort utilizes the industry's most advanced security technology and a fund segregation model. The segregation of funds ensures that up to 98% of funds are kept in multi-sig cold storage provided by Gnosis Safe and Fireblocks MPC encryption.",
     subdesc:
-      "LUCK is made out of 3 parts: The LUCK token, The LUCK Bank, And the LUCK website, for an explanation on each of them click the link.",
-    href: "https://github.com/OmerKarp/LuckToken",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "ChainPort is the only bridge that supports all common bridging methods and core architectures",
+    href: "https://www.chainport.io/",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -233,7 +238,7 @@ export const myProjects = [
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
-    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
+    deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.059,
     deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
     cubePosition: isSmall
       ? [4, -5, 0]
