@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "Last Tank Standing - Tank Couch Game",
+    desc: "Last Tank Standing is a couch tanks game where you earn money, upgrade your tank and buy different ammo types. You fight with others in well made maps, and you can create your own maps to play on with the SandBox feature! There is a leaderboard, random air-drops, and much much more! Also I added 3 music tracks, and menus for information.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Made with pygame COMPLETELY (In only 1 file with 1750 lines, Weird Challenge I know, I suffered so much finding anything...)",
+    href: "https://github.com/OmerKarp/Last_Tank_Standing",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -74,32 +74,17 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Python",
+        path: "/assets/python_logo.png",
       },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "LUCK - A Full-Stack, Decentralized Web3 Lottery",
+    desc: "LUCK is a full-stack, decentralized web3 lottery with a twist. Using the Chainlink VRFCoordinator for randomness. (because the blockchain is deterministic)",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "LUCK is made out of 3 parts: The LUCK token, The LUCK Bank, And the LUCK website, for an explanation on each of them click the link.",
+    href: "https://github.com/OmerKarp/LuckToken",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -284,32 +269,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "DcentraLab",
+    pos: "Blockchain & Backend Developer",
+    duration: "2025 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "DcentraLab is a Web3 company that offers various innovative products, with my primary focus being ChainPort, a highly secure and efficient bridge that facilitates seamless transfers between 25+ different blockchains.",
+    icon: "/assets/dcentralab_logo.png",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "BlockChain Expert",
+    pos: "BlockChain & Crypto Education",
+    duration: "2024 - 2023",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
-    animation: "clapping",
+      "BDCC is the leading college for crypto and blockchain education, also known as Crypto Jungle, offering top-tier courses, hands-on training, expert mentorship, and cutting-edge research to equip students with the skills and knowledge needed for successful careers in the rapidly evolving Web3 industry.",
+    icon: "/assets/crypto_jungle.png",
+    animation: "salute",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "Bar Ilan University",
+    pos: "Applied Mathematics Degree",
+    duration: "2022 - 2025",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
-    animation: "salute",
+      "Bar-Ilan University is a prestigious Israeli institution known for its top-tier research and academic excellence, particularly in precise sciences, where I had the opportunity to study and develop a deep understanding of the field.",
+    icon: "/assets/Bar_Ilan_icon.svg",
+    animation: "clapping",
   },
 ];
